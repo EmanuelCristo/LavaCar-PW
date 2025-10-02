@@ -1,0 +1,18 @@
+{
+  "modified": [
+    "src/app/app.component.ts",
+    "src/app/components/fornecedores/cadastro-fornecedor/cadastro-fornecedor.component.ts",
+    "src/app/components/fornecedores/listar-produtos-fornecedor/listar-produtos-fornecedor.component.ts",
+    "src/app/components/fornecedores/listarfornecedor/listar-fornecedor.component.ts",
+    "src/app/components/home/home.component.ts",
+    "src/app/components/produtos/cadastro-produto/cadastro-produto.component.ts",
+    "src/app/components/produtos/listar-produtos/listar-produtos.component.ts",
+    "src/app/components/typescript/dolars/dolars.component.ts",
+    "src/app/components/typescript/idade/idade.component.ts",
+    "src/app/components/typescript/nota-num/nota-num.component.ts",
+    "src/app/components/typescript/primo/primo.component.ts",
+    "src/app/components/typescript/tabuada/tabuada.component.ts",
+    "src/app/shared/components/layout/footer/footer.component.ts",
+    "src/app/shared/components/layout/header/header.component.ts"
+  ]
+}

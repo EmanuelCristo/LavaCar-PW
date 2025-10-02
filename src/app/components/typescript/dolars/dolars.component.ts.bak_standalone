@@ -1,0 +1,11 @@
+import { Component } from '@angular/core';
+
+@Component({
+  selector: 'app-dolars',
+  imports: [],
+  templateUrl: './dolars.component.html',
+  styleUrls: ['./dolars.component.css']
+})
+export class DolarsComponent {
+
+}

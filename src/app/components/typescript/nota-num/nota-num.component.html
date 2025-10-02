@@ -1,0 +1,20 @@
+<div class="container">
+    <div class="row justfy-content-center">
+        <div class="card col-md-6">
+            <div class="card-header">
+              Conversão de Notas
+            </div>
+            <div class="card-body">
+                <form (ngSubmit)="converteNota()">
+                    <div class="mb-3">
+                      <label for="nota" class="form-label">Digite a nota</label>
+                      <input type="number" class="form-control" id="nota" [(ngModel)]="nota" [ngModelOptions]="{standalone: true}" aria-describedby="emailNota">
+                      <div id="emailHelp" class="form-text"></div>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                  </form>
+            </div>
+            {{ conceito }}
+          </div>
+    </div>
+</div>

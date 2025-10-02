@@ -1,0 +1,41 @@
+import { CommonModule } from '@angular/common';
+import { Component } from '@angular/core';
+import {FormsModule} from '@angular/forms';
+import { deflate } from 'zlib';
+
+@Component({
+  selector: 'app-nota-num',
+  imports: [CommonModule, FormsModule],
+  templateUrl: './nota-num.component.html',
+  styleUrl: './nota-num.component.css'
+})
+export class NotaNumComponent {
+  nota: number | null = null;
+  conceito!: string; 
+
+  converteNota(): void{
+    if(this.nota != null){
+    switch (true){
+      case (this.nota<=59):
+      this.conceito = 'F🤮';
+      break;
+      case (this.nota<=69):
+      this.conceito = 'D🤢';
+      break;
+      case (this.nota<=79):
+      this.conceito = 'C😒';
+      break;
+      case (this.nota<=89):
+      this.conceito = 'B😁'
+      break;
+      case (this.nota>=90):
+      this.conceito = 'A🤓';
+      break;
+    }
+    }
+  }
+
+  constructor(){
+   // this.converteNota();
+  }
+}
